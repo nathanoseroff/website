@@ -10,31 +10,28 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Philosophy of Science",
+    "Epistemology",
+    "Metaphilosophy",
+    "History of Science"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "MPhil in Philosophy"
+  institution = "King's College London"
+  year = 2018
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
+  course = "MA in Philosophy"
+  institution = "University College London"
+  year = 2013
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+  course = "BA in Philosophy"
+  institution = "Oberlin College"
+  year = 2011
  
 +++
 
-# Biography
-
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I am a graduate philosophy student at <a href="https://kclpure.kcl.ac.uk/portal/en/persons/nate-oseroff(9ce66d19-6126-4354-b5d4-34b0f6a6ff93).html">King's College London</a>. My research interests include philosophy of science and epistemology. My present work is on rehabilitating early demarcation criteria first proposed by Rudolf Carnap and Karl Popper. I currently work as an associate editor for the <a href="https://blog.apaonline.org/">APA blog</a> and <a href="http://undercurrentphilosophy.com">Undercurrent Philosophy</a>. I am the editorial officer for the <a href="https://bups.org.uk/about-bups/">British Journal of Undergraduate Philosophy</a>. A copy of my CV is available {{% staticref "files/cv.pdf" %}}here{{% /staticref %}}.

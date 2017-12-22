@@ -9,7 +9,7 @@ deploy:
   steps:
     - install-packages:
         packages: git ssh-client
-    - nathanoseroff/master:
-        token: $942d479ea03cd7b70caf254439a7db3a856df986
-        domain: nathanoseroff.github.io
+    - nathanoseroff/git-push:
+        gh_oauth: $GIT_TOKEN
+        repo: nathanoseroff/nathanoseroff.github.io
         basedir: public

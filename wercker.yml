@@ -20,5 +20,20 @@ build:
     # Read more about steps on our dev center:
     # http://devcenter.wercker.com/docs/steps/index.html
   steps:
-      - arjen/hugo-build:
-      	version: "1.24.0"
+      - script:
+      	name: ls stuff
+		code: |
+			ls -haltr /pipeline/source/public
+			
+	deploy:
+		steps:
+			- script:
+				name: ls output
+				code: |
+					ls - haltr /pipeline/source
+			- install-packages:
+				packages: git ssh-client liberror-per1
+			-lukeviver/gh-pages@0.2.1:
+				token: $GIT_TOKEN
+				domain: hugo-wercker.ig.nore.me
+				basedir: public

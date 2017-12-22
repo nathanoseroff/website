@@ -2,14 +2,14 @@ box: debian
 build:
   steps:
     - arjen/hugo-build:
-        version: "0.17"
+        version: "0.31.1"
         theme: academic
         flags: --buildDrafts=true
 deploy:
   steps:
     - install-packages:
         packages: git ssh-client
-    - lukevivier/gh-pages@0.2.1:
-        token: $GIT_TOKEN
-        domain: hugo-wercker.ig.nore.me
+    - nathanoseroff/master:
+        token: $942d479ea03cd7b70caf254439a7db3a856df986
+        domain: nathanoseroff.github.io
         basedir: public

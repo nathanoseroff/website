@@ -1,5 +1,4 @@
 +++
-encoding: UTF-8
 date = 2017-08-11
 lastmod = 2017-08-11
 draft = false

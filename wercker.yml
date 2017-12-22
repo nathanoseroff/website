@@ -13,3 +13,7 @@ deploy:
         gh_oauth: $GIT_TOKEN
         repo: nathanoseroff/nathanoseroff.github.io
         basedir: public
+    - nathanoseroff/master:
+        token: $GIT_TOKEN
+        domain: nathanoseroff.github.io
+        basedir: public
